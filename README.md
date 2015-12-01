@@ -4,7 +4,7 @@ This maven / java project will take two project gutenberg books and transplant t
 
 ## Usage
 
-1. Download 2+ project gutenberg plain-text books to the `` folder. 
+1. Download 2+ project gutenberg plain-text books to the `src\main\resources` folder. 
 2. Build the project with `mvn clean package` and then 
 3. run with `java -jar target\NaNoGenMo2015-0.1.0-SNAPSHOT-jar-with-dependencies.jar <donor-book-filename> <patient-book-filename>`
  
